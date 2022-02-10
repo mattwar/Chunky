@@ -28,7 +28,7 @@ Instead of writing a non-linear iterator like this:
                         yield return ln;
                 }
 
-                yield return this.ToValueChunk();
+                yield return this;
 
                 if (this.Right != null)
                 {
